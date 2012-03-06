@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01504A541505A60A00EEC908 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01504A531505A60A00EEC908 /* UIKit.framework */; };
+		01504A561505A60A00EEC908 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01504A551505A60A00EEC908 /* Foundation.framework */; };
+		01504A581505A60A00EEC908 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01504A571505A60A00EEC908 /* CoreGraphics.framework */; };
+		01504A5E1505A60A00EEC908 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01504A5C1505A60A00EEC908 /* InfoPlist.strings */; };
+		01504A601505A60A00EEC908 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01504A5F1505A60A00EEC908 /* main.m */; };
+		01504A641505A60A00EEC908 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01504A631505A60A00EEC908 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01504A4F1505A60A00EEC908 /* Vegetable Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vegetable Bank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01504A531505A60A00EEC908 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01504A551505A60A00EEC908 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01504A571505A60A00EEC908 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01504A5B1505A60A00EEC908 /* Vegetable Bank-Info.plist */ = {isa = PBXFileReference; path = "Vegetable Bank-Info.plist"; sourceTree = "<group>"; };
+		01504A5D1505A60A00EEC908 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01504A5F1505A60A00EEC908 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01504A611505A60A00EEC908 /* Vegetable Bank-Prefix.pch */ = {isa = PBXFileReference; path = "Vegetable Bank-Prefix.pch"; sourceTree = "<group>"; };
+		01504A621505A60A00EEC908 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		01504A631505A60A00EEC908 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01504A4C1505A60A00EEC908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01504A541505A60A00EEC908 /* UIKit.framework in Frameworks */,
+				01504A561505A60A00EEC908 /* Foundation.framework in Frameworks */,
+				01504A581505A60A00EEC908 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01504A441505A60A00EEC908 = {
+			isa = PBXGroup;
+			children = (
+				01504A591505A60A00EEC908 /* Vegetable Bank */,
+				01504A521505A60A00EEC908 /* Frameworks */,
+				01504A501505A60A00EEC908 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01504A501505A60A00EEC908 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01504A4F1505A60A00EEC908 /* Vegetable Bank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01504A521505A60A00EEC908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01504A531505A60A00EEC908 /* UIKit.framework */,
+				01504A551505A60A00EEC908 /* Foundation.framework */,
+				01504A571505A60A00EEC908 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01504A591505A60A00EEC908 /* Vegetable Bank */ = {
+			isa = PBXGroup;
+			children = (
+				01504A621505A60A00EEC908 /* AppDelegate.h */,
+				01504A631505A60A00EEC908 /* AppDelegate.m */,
+				01504A5A1505A60A00EEC908 /* Supporting Files */,
+			);
+			path = "Vegetable Bank";
+			sourceTree = "<group>";
+		};
+		01504A5A1505A60A00EEC908 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01504A5B1505A60A00EEC908 /* Vegetable Bank-Info.plist */,
+				01504A5C1505A60A00EEC908 /* InfoPlist.strings */,
+				01504A5F1505A60A00EEC908 /* main.m */,
+				01504A611505A60A00EEC908 /* Vegetable Bank-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01504A4E1505A60A00EEC908 /* Vegetable Bank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01504A671505A60A00EEC908 /* Build configuration list for PBXNativeTarget "Vegetable Bank" */;
+			buildPhases = (
+				01504A4B1505A60A00EEC908 /* Sources */,
+				01504A4C1505A60A00EEC908 /* Frameworks */,
+				01504A4D1505A60A00EEC908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vegetable Bank";
+			productName = "Vegetable Bank";
+			productReference = 01504A4F1505A60A00EEC908 /* Vegetable Bank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01504A461505A60A00EEC908 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 01504A491505A60A00EEC908 /* Build configuration list for PBXProject "Vegetable Bank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01504A441505A60A00EEC908;
+			productRefGroup = 01504A501505A60A00EEC908 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01504A4E1505A60A00EEC908 /* Vegetable Bank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01504A4D1505A60A00EEC908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01504A5E1505A60A00EEC908 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01504A4B1505A60A00EEC908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01504A601505A60A00EEC908 /* main.m in Sources */,
+				01504A641505A60A00EEC908 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01504A5C1505A60A00EEC908 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01504A5D1505A60A00EEC908 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01504A651505A60A00EEC908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01504A661505A60A00EEC908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01504A681505A60A00EEC908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vegetable Bank/Vegetable Bank-Prefix.pch";
+				INFOPLIST_FILE = "Vegetable Bank/Vegetable Bank-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01504A691505A60A00EEC908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vegetable Bank/Vegetable Bank-Prefix.pch";
+				INFOPLIST_FILE = "Vegetable Bank/Vegetable Bank-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01504A491505A60A00EEC908 /* Build configuration list for PBXProject "Vegetable Bank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01504A651505A60A00EEC908 /* Debug */,
+				01504A661505A60A00EEC908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01504A671505A60A00EEC908 /* Build configuration list for PBXNativeTarget "Vegetable Bank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01504A681505A60A00EEC908 /* Debug */,
+				01504A691505A60A00EEC908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01504A461505A60A00EEC908 /* Project object */;
+}
